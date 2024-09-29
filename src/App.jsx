@@ -1,10 +1,12 @@
+import React from "react"
+import Header from "../components/header"
 
-function App() {
+export function App() {
 
   return (
-    <>
-     
-    </>
+    <div>
+      <Header/>
+    </div>
   )
 }
 
