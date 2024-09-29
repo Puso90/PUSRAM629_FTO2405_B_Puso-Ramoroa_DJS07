@@ -1,17 +1,18 @@
 import React from "react"
+import memesData from "../components/memesData.jsx"
 
 export default function Meme() {
-    return (
+    return ( 
         <main>
             <form className="form">
                 <div>
-                    <label htmlFor="top-text">Top Text</label>
+                    <label>Top Text
                         <input
-                            id="top-text"
                             type="text"
-                            placeholder="Top text"
+                            placeholder="Shut up"
                             className="form--input"
                         />
+                    </label>
                     /* above htmlFor to show difference in usage 
                     but always do it same way for consistency */
                 </div>
@@ -19,7 +20,7 @@ export default function Meme() {
                     <label>Bottom Text
                         <input
                             type="text"
-                            placeholder="Bottom text"
+                            placeholder="and take my money"
                             className="form--input"
                         />
                     </label>
